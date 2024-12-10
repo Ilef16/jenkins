@@ -4,7 +4,7 @@ pipeline {
         jdk 'jdk-21' 
     }
     environment { 
-        JAVA_HOME = 'C:\\Program Files\\Java\\jdk-21' 
+        JAVA_HOME ='C:\\Program Files\\Java\\jdk-21' 
     }
     stages {
         stage('Compile Stage') {
