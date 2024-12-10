@@ -1,10 +1,10 @@
 pipeline {
     agent any
     tools { 
-        jdk 'jdk-21' 
+        jdk 'jdk21' 
     }
     environment { 
-        JAVA_HOME ='C:\\Program Files\\Java\\jdk-21' 
+        JAVA_HOME = 'C:\\Program Files\\Java\\jdk-21' 
     }
     stages {
         stage('Compile Stage') {
@@ -29,4 +29,4 @@ pipeline {
             }
         }
     }
-} 
+}
